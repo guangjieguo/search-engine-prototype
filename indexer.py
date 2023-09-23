@@ -1,5 +1,6 @@
 import pickle
 
+# you need to change to your own documents file name here
 with open("all_articles.txt") as file:
     articles = file.read()
 articles = articles.split("\n\n")
